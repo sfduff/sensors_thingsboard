@@ -1,10 +1,10 @@
 [Unit]
-Description= Relay Web Server
+Description= Sensors service
 After=multi-user.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /home/pi/sensor_thingboard/sensors.py
+ExecStart=/usr/bin/python3 /home/pi/sensor_thingsboard/sensors.py
 Restart=on-abort
 
 [Install]

@@ -7,24 +7,24 @@ Supports both BME280 (temperature, relative humidity and atmospheric pressure) a
 
 BME280 to rpi pins
 
-  1 - 3v vin power
+    1 - 3v vin power
   
-  3 - SDA1 i2c
+    3 - SDA1 i2c
   
-  5 - SCL1 i2c
+    5 - SCL1 i2c
   
-  9 - Ground
+    9 - Ground
 
 
 MH-Z19 to rpi pins
 
-  2 - 5v vin power
+    2 - 5v vin power
   
-  6 - Ground
+    6 - Ground
   
-  8 - UART0 TXD
+    8 - UART0 TXD
   
-  10 - UART0 RXD
+    10 - UART0 RXD
 
 
 # OS installation

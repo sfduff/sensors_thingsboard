@@ -47,4 +47,4 @@ Enalbe the i2c and serial interfaces
 
 
 # clone repo and run 
-``python3 read_bme280.py``
+``python3 sensors.py``

@@ -12,7 +12,7 @@ sudo pip3 install RPi.bme280 mh-z19 smbus2 paho-mqtt
 # sudo chmod 777 /dev/serial0
 
 # setup sensor service
-sudo cp sensors.service /lib/systemd/system/.
+sudo cp sensors_thingsboard/sensors.service /lib/systemd/system/.
 sudo systemctl enable sensors.service
 sudo systemctl start sensors.service
 sudo systemctl status sensors.service

@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import smbus2
 import bme280
 import mh_z19
@@ -20,7 +22,7 @@ calibration_params = bme280.load_calibration_params(bus, address)
 sensor_data = {'temperature': 0, 'pressure' : 0, 'humidity': 0, 'co2': 0}
 
 thingsboard_host = '192.168.1.101'
-access_token = 'jCFMNG7wD6p6hX9S9FKC'
+access_token = '1vB0HkdQwXOd2xhMirVS'
 reading_interval = 5
 
 client = mqtt.Client()

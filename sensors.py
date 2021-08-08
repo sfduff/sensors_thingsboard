@@ -29,6 +29,7 @@ client = mqtt.Client()
 client.username_pw_set(access_token)
 client.connect(thingsboard_host, 1883, 60)
 client.loop_start()
+co2 = 0
 
 
 try:
@@ -39,7 +40,8 @@ try:
         sensor_data['temperature'] = round(data.temperature,2)
         sensor_data['humidity'] = round(data.humidity,2)
         sensor_data['pressure'] = round(data.pressure,2)
-        sensor_data['co2'] = co2['co2']
+        if co2:
+            sensor_data['co2'] = co2['co2']
 
         print( sensor_data )
 

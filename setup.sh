@@ -2,7 +2,7 @@
 
 # install prerequisites
 sudo apt-get install i2c-tools python3-pip git -y
-sudo pip3 install RPi.bme280 mh-z19 smbus2 paho-mqtt
+pip3 install RPi.bme280 mh-z19 smbus2 paho-mqtt
 
 # allow access to serial port for non root
 sudo chmod 777 /dev/serial0

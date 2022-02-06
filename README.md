@@ -31,7 +31,7 @@ MH-Z19 to rpi pins
 
 Start with a fresh installation of Raspberry PI OS Lite
 
-''sudo raspi-config''
+``sudo raspi-config``
 
 Enalbe the i2c and serial interfaces
 
